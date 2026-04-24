@@ -339,7 +339,7 @@ const Index = () => {
               <div className="flex-1" />
 
               <button
-                onClick={() => navigate(-1)}
+                onClick={() => setScreen(1)}
                 className="mt-8 w-full bg-gold text-brown-deep font-medium text-sm py-3.5 rounded-full hover:bg-gold-light transition"
               >
                 Finish Guide
